@@ -23,24 +23,7 @@ Camera Feed → Preprocessing → Feature Extraction → ML Classification → A
 4. **Classify** — SVM-based ML model predicts gesture
 5. **Act** — Triggers zoom, navigation, or other actions
 
----
 
-## 🗂️ Project Structure
-📁 src/
-├── preprocess_hg14.m          # Full preprocessing pipeline
-├── extract_features_hg14.m    # Feature extraction (convexity, finger count, etc.)
-├── classify_gesture_hg14.m    # Rule-based gesture classifier
-├── classify_ml.m              # ML-based classifier (uses trained model)
-├── train_ml_model.m           # Train SVM model on gesture dataset
-├── evaluate_hg14.m            # Evaluate model accuracy on dataset
-├── realtime_gesture_app.m     # Live webcam gesture → MRI/Xray viewer
-├── show_preprocessing.m       # Visualize all preprocessing stages
-├── show_prediction.m          # Show image + mask + extracted features
-├── hand_gesture_recognition.m # Core gesture recognition script
-├── map_action.m               # Maps gesture labels to actions
-└── gesture_ml_model.mat       # Pre-trained SVM ML model
-
----
 
 ## 🖐️ Supported Gestures
 
